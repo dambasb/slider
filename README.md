@@ -7,5 +7,5 @@ npm install
 
 ### Start webserver at localhost:9000
 ```
-gulp
+npm run start
 ```

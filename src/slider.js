@@ -1,13 +1,19 @@
+import './style.scss';
+
+import gray_right from './images/arrow-gray-right.png';
+import gray_left from './images/arrow-gray-left.png';
+import blue_right from './images/arrow-blue-right.png';
+import blue_left from './images/arrow-blue-left.png';
 $(document).ready(function () {
 
     /** Change color of left arroww image on hover */
     $('.left').hover(function () {
 
-        $("#left_img").attr("src", "images/arrow-gray-left.png");
+        $("#left_img").attr("src", gray_left);
 
     }, function () {
 
-        $("#left_img").attr("src", "images/arrow-blue-left.png");
+        $("#left_img").attr("src", blue_left);
 
     });
 
@@ -15,11 +21,11 @@ $(document).ready(function () {
     /** Change color of right arroww image on hover */
     $('.right').hover(function () {
 
-        $("#right_img").attr("src", "images/arrow-gray-right.png");
+        $("#right_img").attr("src", gray_right);
 
     }, function () {
 
-        $("#right_img").attr("src", "images/arrow-blue-right.png");
+        $("#right_img").attr("src", blue_right);
 
     });
 
