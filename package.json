@@ -12,6 +12,8 @@
     "url": "https://github.com/dambasb/slider/issues"
   },
   "dependencies": {
+    "bourbon": "^5.1.0",
+    "bourbon-neat": "^1.9.1",
     "npm": "^6.1.0",
     "update": "^0.7.4",
     "webpack": "^4.12.0"
