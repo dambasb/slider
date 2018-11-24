@@ -12,11 +12,11 @@
     "url": "https://github.com/dambasb/slider/issues"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
     "bourbon": "^5.1.0",
     "bourbon-neat": "^1.9.1",
-    "npm": "^6.1.0",
-    "update": "^0.7.4",
-    "webpack": "^4.12.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "file-loader": "^2.0.0",
@@ -25,8 +25,11 @@
     "image-webpack-loader": "^4.5.0",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
+    "npm": "^6.1.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
+    "update": "^0.7.4",
+    "webpack": "^4.12.0",
     "webpack-cli": "^3.0.4",
     "webpack-dev-server": "^3.1.4"
   },
